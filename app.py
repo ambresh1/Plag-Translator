@@ -1,6 +1,3 @@
-from transformers import FSMTForConditionalGeneration, FSMTTokenizer
-import docx
-
 def fbtranslate(text):
     mname1="Helsinki-NLP/opus-mt-en-ru"
     #mname1="/content/drive/MyDrive/facebook/wmt19-en-ru"
