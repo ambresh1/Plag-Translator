@@ -1,4 +1,5 @@
 from transformers import MarianTokenizer, MarianMTModel
+import streamlit as st
 import sentencepiece
 import torch
 import docx
