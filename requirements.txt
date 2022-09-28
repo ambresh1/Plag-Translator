@@ -1,4 +1,4 @@
-from transformers import MarianTokenizer, MarianMTModel
+import transformers
 import streamlit as st
 import sentencepiece
 import torch
