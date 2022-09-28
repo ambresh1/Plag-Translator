@@ -1,5 +1,5 @@
-import transformers as transformers
-import streamlit as st
+transformers
+streamlit
 import sentencepiece
 import torch
 import docx
