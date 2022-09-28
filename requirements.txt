@@ -1,7 +1,7 @@
 transformers
 streamlit
-import sentencepiece
-import torch
-import docx
-import ipywidgets
-import sacremoses
+sentencepiece
+torch
+docx
+ipywidgets
+sacremoses
