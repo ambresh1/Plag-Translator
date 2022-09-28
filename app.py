@@ -1,6 +1,6 @@
 def fbtranslate(text):
-    mname1="Helsinki-NLP/opus-mt-en-ru"
-    #mname1="/content/drive/MyDrive/facebook/wmt19-en-ru"
+    #mname1="Helsinki-NLP/opus-mt-en-ru"
+    mname1="https://drive.google.com/drive/folders/1-QQSCWpdRmlXZhY6dF4ksmPVdtsKDGe5?usp=sharing"
     tokenizer2 = FSMTTokenizer.from_pretrained(mname1)
     model2 = FSMTForConditionalGeneration.from_pretrained(mname1)
     # # Saving the Models
@@ -13,7 +13,7 @@ def fbtranslate(text):
     # print(decoded) # Машинное обучение - это здорово, не так ли?
     
 
-    mname2="Helsinki-NLP/opus-mt-ru-en"  
+    mname2="https://drive.google.com/drive/folders/1-5RZ72S9Iqsnz6kxbLRxDPEeU8HrRHTp?usp=sharing"  
     tokenizer2 = FSMTTokenizer.from_pretrained(mname2)
     model2 = FSMTForConditionalGeneration.from_pretrained(mname2)
     # # Saving the Models
