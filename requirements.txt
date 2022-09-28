@@ -1,0 +1,6 @@
+from transformers import MarianTokenizer, MarianMTModel
+import sentencepiece
+import torch
+import docx
+import ipywidgets
+import sacremoses
