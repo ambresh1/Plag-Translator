@@ -1,5 +1,4 @@
-pip install transformers
-import transformers
+import transformers as transformers
 import streamlit as st
 import sentencepiece
 import torch
